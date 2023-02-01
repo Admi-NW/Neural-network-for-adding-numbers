@@ -110,7 +110,7 @@ public:
         }
     }
 
-    Matrix t() 
+    Matrix t() //transposition
     {
         Matrix result(this->cols, this->rows);
         for (int i = 0; i < this->rows; i++) 
